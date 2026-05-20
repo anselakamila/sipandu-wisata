@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 70px;
+    background: white;
+}
+
+nav h2{
+    color: #1ea7d7;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li:hover{
+    color: #1ea7d7;
+}
+
+.login-btn{
+    border: 2px solid #1ea7d7;
+    padding: 10px 22px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+/* HERO SECTION */
+.hero{
+    background-image: url("../images/gunung.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+/* Overlay gelap */
+.hero::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.overlay{
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.overlay h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.overlay p{
+    font-size: 24px;
+}
+
+/* DESTINASI */
+.destinasi{
+    padding: 60px;
+    text-align: center;
+}
+
+.destinasi h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3{
+    padding: 20px;
+    font-size: 32px;
+}
+
+footer{
+    background: #1ea7d7;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
