@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rekomendasi DSS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rekomendasi.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Logo" />
+        <h2>SIPANDU-WISATA</h2>
+      </div>
+
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#">Destinasi</a></li>
+        <li><a href="rekomendasi.html">Rekomendasi</a></li>
+        <li class="login-btn">Login</li>
+      </ul>
+    </nav>
+
+    <!-- DSS SECTION -->
+    <section class="dss-section">
+      <h1>Sistem Rekomendasi Pintar (DSS)</h1>
+
+      <div class="dss-container">
+        <!-- FILTER -->
+        <div class="filter-box">
+          <h2>Atur Preferensi Wisata Anda</h2>
+
+          <div class="filter-group">
+            <label>Kategori Wisata</label>
+
+            <select>
+              <option>Budaya</option>
+              <option>Alam</option>
+              <option>Pantai</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label>Minimum Rating</label>
+
+            <select>
+              <option>4.5 ke atas</option>
+              <option>4.0 ke atas</option>
+              <option>3.5 ke atas</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label>Cuaca Ideal</label>
+
+            <select>
+              <option>Cerah</option>
+              <option>Cerah Berawan</option>
+              <option>Sejuk</option>
+            </select>
+          </div>
+
+          <button>Hitung Rekomendasi DSS</button>
+        </div>
+
+        <!-- HASIL -->
+        <div class="hasil-box">
+          <h2>Hasil Rekomendasi</h2>
+
+          <!-- CARD -->
+          <!-- HASIL 1 -->
+          <div class="hasil-card">
+            <img src="images/borobudur.jpeg" alt="Borobudur" />
+
+            <div class="hasil-info">
+              <span class="badge">REKOMENDASI TERBAIK</span>
+
+              <h3>Candi Borobudur</h3>
+
+              <p>⭐ 4.8 • 📍 Magelang, Jawa Tengah</p>
+
+              <p>
+                Dipilih karena memiliki rating tinggi, cuaca cerah, dan akses
+                transportasi mudah.
+              </p>
+
+              <a href="borobudur.html" class="detail-btn"> Lihat Detail </a>
+            </div>
+
+            <div class="score-box">
+              <span>Skor DSS</span>
+              <h1>92.5</h1>
+            </div>
+          </div>
+
+          <!-- HASIL 2 -->
+          <div class="hasil-card">
+            <img src="images/prambanan.jpg" alt="Prambanan" />
+
+            <div class="hasil-info">
+              <span class="badge second">REKOMENDASI 2</span>
+
+              <h3>Candi Prambanan</h3>
+
+              <p>⭐ 4.7 • 📍 Sleman, Yogyakarta</p>
+
+              <p>
+                Memiliki nilai budaya tinggi dengan fasilitas wisata lengkap dan
+                cuaca yang mendukung.
+              </p>
+
+              <a href="borobudur.html" class="detail-btn"> Lihat Detail </a>
+            </div>
+
+            <div class="score-box">
+              <span>Skor DSS</span>
+              <h1>89.3</h1>
+            </div>
+          </div>
+
+          <!-- HASIL 3 -->
+          <div class="hasil-card">
+            <img src="images/malioboro.png" alt="Malioboro" />
+
+            <div class="hasil-info">
+              <span class="badge third">REKOMENDASI 3</span>
+
+              <h3>Malioboro</h3>
+
+              <p>⭐ 4.6 • 📍 Yogyakarta</p>
+
+              <p>
+                Cocok untuk wisata santai dengan akses transportasi mudah dan
+                banyak pilihan kuliner.
+              </p>
+
+              <a href="borobudur.html" class="detail-btn"> Lihat Detail </a>
+            </div>
+
+            <div class="score-box">
+              <span>Skor DSS</span>
+              <h1>85.7</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

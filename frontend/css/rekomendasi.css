@@ -1,0 +1,247 @@
+/* =========================
+   DSS REKOMENDASI
+========================= */
+
+.dss-section{
+    padding: 50px 60px;
+}
+
+.dss-section h1{
+    font-size: 36px;
+
+    color: #1f2a69;
+
+    margin-bottom: 35px;
+
+    font-weight: 700;
+}
+
+.dss-container{
+    display: flex;
+
+    gap: 35px;
+
+    align-items: flex-start;
+}
+
+/* FILTER */
+
+.filter-box{
+    width: 320px;
+
+    background: white;
+
+    padding: 28px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.filter-box h2{
+    font-size: 26px;
+
+    color: #1f2a69;
+
+    margin-bottom: 28px;
+
+    line-height: 1.4;
+}
+
+.filter-group{
+    margin-bottom: 22px;
+}
+
+.filter-group label{
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    color: #333;
+}
+
+.filter-group select{
+    width: 100%;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    border: 1px solid #d9d9d9;
+
+    font-size: 15px;
+
+    color: #555;
+
+    outline: none;
+}
+
+.filter-box button{
+    width: 100%;
+
+    background: #1ea7d7;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    margin-top: 8px;
+}
+
+.filter-box button:hover{
+    background: #1693be;
+}
+
+/* HASIL */
+
+.hasil-box{
+    flex: 1;
+}
+
+.hasil-box h2{
+    font-size: 30px;
+
+    color: #1f2a69;
+
+    margin-bottom: 25px;
+}
+
+.hasil-card{
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 24px;
+
+    display: flex;
+
+    gap: 22px;
+
+    align-items: center;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+    margin-bottom: 24px;
+
+    transition: 0.3s ease;
+}
+
+.hasil-card:hover{
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+.hasil-card img{
+    width: 200px;
+
+    height: 140px;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+}
+
+.hasil-info{
+    flex: 1;
+}
+
+.badge{
+    color: #ff4d4d;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+}
+
+.hasil-info h3{
+    font-size: 28px;
+
+    color: #1f2a69;
+
+    margin: 10px 0;
+}
+
+.hasil-info p{
+    font-size: 15px;
+
+    color: #666;
+
+    line-height: 1.8;
+
+    margin-bottom: 10px;
+}
+
+.detail-btn{
+    display: inline-block;
+
+    margin-top: 10px;
+
+    text-decoration: none;
+
+    background: #1ea7d7;
+
+    color: white;
+
+    padding: 11px 18px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.detail-btn:hover{
+    background: #1693be;
+}
+
+.score-box{
+    text-align: center;
+
+    min-width: 110px;
+}
+
+.score-box span{
+    color: #888;
+
+    font-size: 14px;
+}
+
+.score-box h1{
+    color: #1ea7d7;
+
+    font-size: 46px;
+
+    margin-top: 8px;
+
+    font-weight: 700;
+}
+
+.second{
+    color: #ff9800;
+}
+
+.third{
+    color: #4caf50;
+}
