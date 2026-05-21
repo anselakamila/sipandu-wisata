@@ -42,12 +42,28 @@ nav ul li:hover{
     color: #1ea7d7;
 }
 
+/* LOGO NAVBAR */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img{
+    width: 45px;
+    height: auto;
+}
+
+.logo h2{
+    color: #1ea7d7;
+    font-size: 32px;
+    font-weight: bold;
+}
+
 .login-btn{
     border: 2px solid #1ea7d7;
     padding: 10px 22px;
     border-radius: 25px;
-    display: flex;
-    align-items: center;
 }
 
 /* HERO SECTION */
@@ -60,10 +76,8 @@ nav ul li:hover{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-bottom: 60px;
 }
 
-/* Overlay gelap */
 .hero::before{
     content: "";
     position: absolute;
@@ -86,6 +100,113 @@ nav ul li:hover{
 
 .overlay p{
     font-size: 24px;
+}
+/* CARD LOKASI */
+.lokasi-card{
+    background: white;
+    padding: 18px 35px;
+    border-radius: 20px;
+    display: inline-flex;
+    gap: 40px;
+    margin-top: 30px;
+    color: #666;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* SEARCH BOX */
+.search-box{
+    background: white;
+    width: 650px;
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.search-box input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+}
+
+.search-box button{
+    background: #1ea7d7;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-box button:hover{
+    background: #1693be;
+}
+
+/* FITUR */
+.fitur{
+    padding: 70px 60px 30px;
+    text-align: center;
+}
+
+.fitur-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.fitur-card{
+    background: white;
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    border: 1px solid #1ea7d7;
+}
+
+.fitur-card:hover{
+    transform: translateY(-8px);
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background: #1ea7d7;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.fitur-card h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.fitur-card p{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.deskripsi{
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
 }
 
 /* DESTINASI */
@@ -127,9 +248,10 @@ nav ul li:hover{
 
 .card h3{
     padding: 20px;
-    font-size: 32px;
+    font-size: 28px;
 }
 
+/* FOOTER */
 footer{
     background: #1ea7d7;
     color: white;
