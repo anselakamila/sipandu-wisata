@@ -398,17 +398,21 @@
 .review-card{
     display: grid;
 
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: 220px 1fr;
 
-    gap: 28px;
+    gap: 40px;
 
-    padding: 32px 0;
+    background: white;
 
-    border-bottom: 1px solid #e8e8e8;
+    padding: 35px;
 
-    align-items: flex-start;
+    border-radius: 22px;
 
-    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+
+    margin-bottom: 28px;
+
+    align-items: start;
 }
 
 .review-card:hover{
@@ -419,8 +423,6 @@
     display: flex;
 
     flex-direction: column;
-
-    align-items: flex-start;
 }
 
 .profile-circle{
@@ -463,7 +465,7 @@
 }
 
 .review-content{
-    max-width: 920px;
+    padding-top: 10px;
 }
 
 .review-rating{
@@ -499,3 +501,4 @@
 
     line-height: 1.9;
 }
+
