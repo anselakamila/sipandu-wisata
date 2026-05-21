@@ -1,115 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIPANDU Wisata</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- NAVBAR -->
     <nav>
-
-    <div class="logo">
-        <img src="images/logo.jpg" alt="Logo">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Logo" />
         <h2>SIPANDU-WISATA</h2>
-    </div>
+      </div>
 
-    <ul>
-        <li>Beranda</li>
-        <li>Tentang</li>
-        <li>Destinasi</li>
-        <li class="login-btn">Login</li>
-    </ul>
+      <ul>
+        <li><a href="#">Beranda</a></li>
 
-</nav>
+        <li><a href="#">Tentang</a></li>
+
+        <li><a href="#destinasi">Destinasi</a></li>
+
+        <li><a href="detail.html">Rekomendasi</a></li>
+
+        <li class="login-btn">
+          <a href="#">Login</a>
+        </li>
+      </ul>
+    </nav>
 
     <!-- HERO SECTION -->
     <section class="hero">
-    <div class="overlay">
-
+      <div class="overlay">
         <h1>Temukan Petualangan kamu</h1>
         <p>Kami Pandu Rute Terbaik.</p>
 
         <!-- Card lokasi -->
         <div class="lokasi-card">
-            <span>📍 Bogor, Jawa Barat</span>
-            <span>⛅ Cerah berawan</span>
+          <span>📍 Bogor, Jawa Barat</span>
+          <span>⛅ Cerah berawan</span>
         </div>
 
         <!-- Search bar -->
         <div class="search-box">
-            <input type="text" placeholder="Cari destinasi, kota atau kata kunci...">
-            <button>Cari</button>
+          <input
+            type="text"
+            placeholder="Cari destinasi, kota atau kata kunci..."
+          />
+          <button>Cari</button>
         </div>
-
-    </div>
-</section>
+      </div>
+    </section>
 
     <!-- FITUR -->
     <section class="fitur">
-
-        <div class="fitur-container">
-
-            <div class="fitur-card">
-                <div class="icon">📍</div>
-                <h3>Wisata Terdekat</h3>
-                <p>Menampilkan wisata terdekat dari lokasi pengguna.</p>
-            </div>
-
-            <div class="fitur-card">
-                <div class="icon">☀️</div>
-                <h3>Cuaca Ideal</h3>
-                <p>Memberikan informasi cuaca sebelum berwisata.</p>
-            </div>
-
-            <div class="fitur-card">
-                <div class="icon">⭐</div>
-                <h3>Rekomendasi</h3>
-                <p>Memberikan rekomendasi wisata terbaik untuk kamu.</p>
-            </div>
-
+      <div class="fitur-container">
+        <div class="fitur-card">
+          <div class="icon">📍</div>
+          <h3>Wisata Terdekat</h3>
+          <p>Menampilkan wisata terdekat dari lokasi pengguna.</p>
         </div>
 
-        <div class="deskripsi">
-            <p>
-                Platform informasi wisata yang membantu wisatawan menemukan
-                destinasi terbaik berdasarkan lokasi, rating, dan rekomendasi
-                wisata dengan lebih mudah.
-            </p>
+        <div class="fitur-card">
+          <div class="icon">☀️</div>
+          <h3>Cuaca Ideal</h3>
+          <p>Memberikan informasi cuaca sebelum berwisata.</p>
         </div>
 
+        <div class="fitur-card">
+          <div class="icon">⭐</div>
+          <h3>Rekomendasi</h3>
+          <p>Memberikan rekomendasi wisata terbaik untuk kamu.</p>
+        </div>
+      </div>
+
+      <div class="deskripsi">
+        <p>
+          Platform informasi wisata yang membantu wisatawan menemukan destinasi
+          terbaik berdasarkan lokasi, rating, dan rekomendasi wisata dengan
+          lebih mudah.
+        </p>
+      </div>
     </section>
 
     <!-- DESTINASI -->
-    <section class="destinasi">
-        <h2>Destinasi Populer</h2>
+    <section class="destinasi" id="destinasi">
+      <h2>Destinasi Populer</h2>
 
-        <div class="card-container">
-
-            <div class="card">
-                <img src="images/bali.jpg" alt="Bali">
-                <h3>Bali</h3>
-            </div>
-
-            <div class="card">
-                <img src="images/jogja.jpg" alt="Jogja">
-                <h3>Jogja</h3>
-            </div>
-
-            <div class="card">
-                <img src="images/rajaampat.jpg" alt="Raja Ampat">
-                <h3>Raja Ampat</h3>
-            </div>
-
+      <div class="card-container">
+        <div class="card">
+          <img src="images/bali.jpg" alt="Bali" />
+          <h3>Bali</h3>
         </div>
+
+        <div class="card">
+          <img src="images/jogja.jpg" alt="Jogja" />
+          <h3>Jogja</h3>
+        </div>
+
+        <div class="card">
+          <img src="images/rajaampat.jpg" alt="Raja Ampat" />
+          <h3>Raja Ampat</h3>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2026 SIPANDU-WISATA | Website Rekomendasi Wisata</p>
+      <p>© 2026 SIPANDU-WISATA | Website Rekomendasi Wisata</p>
     </footer>
-
-</body>
+  </body>
 </html>
