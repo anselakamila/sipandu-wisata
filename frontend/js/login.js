@@ -1,9 +1,10 @@
-function login(){
+function login() {
 
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
-    if(username === "admin" && password === "123"){
+    // asal tidak kosong
+    if(username !== "" && password !== ""){
 
         alert("Login berhasil!");
 
@@ -11,8 +12,7 @@ function login(){
 
     } else {
 
-        alert("Username atau password salah!");
+        alert("Username dan password harus diisi!");
 
     }
-
 }
